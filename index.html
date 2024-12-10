@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <div class="profile-section">
+                    <img src="images/profile.png" alt="Your Profile" class="profile-pic">
+                    <h2>Your Name</h2>
+                </div>
+                <div class="actions">
+                    <!-- Link to the statuses page -->
+                    <a href="statuses.html">
+                        <img src="images/status.png" alt="Status" class="icon">
+                    </a>
+                    <img src="images/new-chat.png" alt="New Chat" class="icon">
+                    <img src="images/menu.png" alt="Menu" class="icon">
+                </div>
+            </header>
+            <div class="search-bar">
+                <input type="text" placeholder="Search or start new chat" />
+            </div>
+            <div class="chat-list">
+                <div class="chat-item">
+                    <img src="images/ogone.png" alt="Ogone" class="chat-pic">
+                    <div class="chat-info">
+                        <h3>Ogone</h3>
+                        <p>Hey, how are you?</p>
+                    </div>
+                    <span class="chat-time">10:30 AM</span>
+                </div>
+                <div class="chat-item">
+                    <img src="images/21.png" alt="21" class="chat-pic">
+                    <div class="chat-info">
+                        <h3>21</h3>
+                        <p>See you later!</p>
+                    </div>
+                    <span class="chat-time">9:45 AM</span>
+                </div>
+                <!-- Add more chats as needed -->
+            </div>
+        </aside>
+
+        <!-- Chat Section -->
+        <main class="chat-window">
+            <header class="chat-header">
+                <div class="chat-profile">
+                    <img src="images/ogone.png" alt="Ogone" class="chat-pic">
+                    <div>
+                        <h3>Ogone</h3>
+                        <p class="chat-status">Online</p>
+                    </div>
+                </div>
+                <div class="chat-actions">
+                    <img src="images/search.png" alt="Search" class="icon">
+                    <img src="images/menu.png" alt="Menu" class="icon">
+                </div>
+            </header>
+            <section class="chat-body">
+                <div class="message received">
+                    <p>Hey, how are you?</p>
+                    <span class="message-time">10:19 AM</span>
+                </div>
+                <div class="message sent">
+                    <p>I'm doing well! How about you?</p>
+                    <span class="message-time">10:20 AM</span>
+                </div>
+            </section>
+            <footer class="chat-footer">
+                <img src="images/emoji.png" alt="Emoji" class="icon">
+                <input type="text" placeholder="Type a message">
+                <img src="images/mic.png" alt="Mic" class="icon">
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
